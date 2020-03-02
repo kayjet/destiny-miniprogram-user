@@ -29,3 +29,4 @@ background/src/main/resources/dist/*
 *.iml
 *.log
 upload/*
+package-lock.json
