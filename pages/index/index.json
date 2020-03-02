@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "minepage": "../component/mine/mine",
+    "homepage": "../component/home/home",
+    "messagepage": "../component/message/message"
+  },
   "title":"首页"
 }

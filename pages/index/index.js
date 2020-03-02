@@ -4,26 +4,10 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
-  },
-  onChangeTab(event) {
-    console.log(event);
-    if (event.detail == 2){
-      wx.navigateTo({
-        url: '../mine/mine'
-      })
-    }
-    // event.detail 的值为当前选中项的索引
-    this.setData({ active: event.detail });
-  },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    active:0
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
@@ -60,5 +44,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  onChangeTab(event) {
+    console.log(event);
+    // event.detail 的值为当前选中项的索引
+    this.setData({ active: event.detail });
+  },
 })
