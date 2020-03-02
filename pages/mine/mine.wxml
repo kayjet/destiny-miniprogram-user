@@ -7,19 +7,19 @@
   <view class="order">
     <van-row>
       <van-col span="8">
-        <view class="right-border">
+        <view class="cell right-border">
           <view class="number">1</view>
           <view class="text">待服务</view>
         </view>
       </van-col>
       <van-col span="8">
-        <view class="right-border">
+        <view class="cell right-border">
           <view class="number">2</view>
           <view class="text">已完成</view>
         </view>
       </van-col>
       <van-col span="8">
-        <view>
+        <view class="cell">
           <view class="number">1</view>
           <view class="text">已退款</view>
         </view>
