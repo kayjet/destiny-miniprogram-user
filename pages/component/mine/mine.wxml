@@ -27,9 +27,49 @@
     </van-row>
   </view>
   <van-row>
-    <view class="item">
-      <van-icon name="coupon" style="margin-left:30rpx;margin-right:30rpx;color:#b3b3b3;font-size:40rpx;" />
-      <view>余额</view>
+    <view style="margin-top: 24rpx;">
+      <view class="item">
+        <van-icon name="coupon" class="icon" style="margin-left:30rpx;margin-right:30rpx;" />
+        <view>余额</view>
+        <view style="position: absolute;right:24rpx;top:28rpx;">
+          <van-icon name="arrow" class="icon" />
+        </view>
+      </view>
+    </view>
+
+    <view style="margin-top: 24rpx;">
+      <view class="item">
+        <van-icon name="coupon" class="icon" style="margin-left:30rpx;margin-right:30rpx;" />
+        <view>我是命理师</view>
+        <view style="position: absolute;right:24rpx;top:28rpx;">
+          <van-icon name="arrow" class="icon" />
+        </view>
+      </view>
+    </view>
+
+    <view style="margin-top: 24rpx;">
+      <view class="item">
+        <van-icon name="coupon" class="icon" style="margin-left:30rpx;margin-right:30rpx;" />
+        <view>常见问题</view>
+        <view style="position: absolute;right:24rpx;top:28rpx;">
+          <van-icon name="arrow" class="icon" />
+        </view>
+      </view>
+      <view style="padding-left:24rpx;height:2rpx;background:#fff;">
+        <view style="background-color:#eee;width:100%;height:100%;"></view>
+      </view>
+    </view>
+    <view>
+      <view class="item">
+        <van-icon name="coupon" class="icon" style="margin-left:30rpx;margin-right:30rpx;" />
+        <view>关于鸣谦</view>
+        <view style="position: absolute;right:24rpx;top:28rpx;">
+          <van-icon name="arrow" class="icon" />
+        </view>
+      </view>
+      <view style="padding-left:24rpx;height:2rpx;background:#fff;">
+        <view style="background-color:#eee;width:100%;height:100%;"></view>
+      </view>
     </view>
   </van-row>
 

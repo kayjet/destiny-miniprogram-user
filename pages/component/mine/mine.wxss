@@ -38,11 +38,15 @@ background-color: #fff;
   background-repeat: no-repeat;
 }
 .item{
-  margin-top: 24rpx;
   height: 90rpx;
   display: flex;
   align-items: center;
   background-color: #fff;
   font-size: 16px;
   font-weight: 600;
+  position: relative;
+}
+.item .icon{
+  color:#b3b3b3;
+  font-size:40rpx;
 }
