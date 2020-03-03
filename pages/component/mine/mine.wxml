@@ -6,14 +6,14 @@
   </view>
   <view class="order">
     <van-row>
-      <van-col span="8">
+      <van-col span="8"  >
         <view class="cell right-border">
           <view class="number">1</view>
           <view class="text">待服务</view>
         </view>
       </van-col>
-      <van-col span="8">
-        <view class="cell right-border">
+      <van-col span="8" class="right-border">
+        <view class="cell  right-border">
           <view class="number">2</view>
           <view class="text">已完成</view>
         </view>
