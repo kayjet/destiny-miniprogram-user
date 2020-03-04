@@ -1,2 +1,53 @@
 <!--pages/appoint/appoint.wxml-->
-<text>pages/appoint/appoint.wxml</text>
+<view class="container">
+
+  <view class="item">
+    <van-icon name="contact" class="left-icon" />
+    <view style="margin-left:24rpx;">命理师名称</view>
+    <view class="right-wrapper">
+      <van-icon name="arrow" class="icon" />
+    </view>
+  </view>
+  <view class="item">
+    <van-icon name="orders-o" class="left-icon" />
+    <view style="margin-left:24rpx;">预约项目名称</view>
+    <view class="right-wrapper">
+      <view class="flex2">
+        <view>￥价格</view>
+        <view style="font-size:12px;">时长</view>
+      </view>
+      <van-icon name="arrow" class="icon" />
+    </view>
+  </view>
+  <view class="week-wrapper">
+    <van-row>
+      <van-col span="5">
+        <view>今天</view>
+        <view class="more-text" >3-4</view>
+      </van-col>
+      <van-col span="5">
+        <view>明天</view>
+        <view class="more-text" >3-5</view>
+      </van-col>
+      <van-col span="5">
+        <view>后天</view>
+        <view class="more-text" >3-6</view>
+      </van-col>
+      <van-col span="5">
+        <view>周六</view>
+        <view class="more-text" >3-4</view>
+      </van-col>
+
+      <van-col span="4" style="align-self: left;">
+        <view>
+          <van-icon name="notes-o" style="font-size:34rpx;margin-top:-1px;"/>
+        </view>
+        <view style="line-height:8px;">更多</view>
+      </van-col>
+    </van-row>
+
+  </view>
+  <view class="toparrow-wrapper">
+  </view>
+  <view class="time-wrapper"></view>
+</view>

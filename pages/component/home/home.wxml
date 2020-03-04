@@ -1,2 +1,7 @@
 <!--pages/component/home/home.wxml-->
-<text>pages/component/home/home.wxml</text>
+<view bindtap="toAppoint">
+<text>Appoint</text>
+</view>
+<view>
+<calendar bind:select="select"></calendar>
+</view>

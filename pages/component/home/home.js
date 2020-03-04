@@ -18,6 +18,15 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    select: function (e) {
+      this.setData({
+        selectVal: e.detail
+      })
+    },
+    toAppoint:function(){
+      wx.navigateTo({
+        url: '/pages/appoint/appoint',
+      })
+    }
   }
 })
